@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/splash_bg.xml" value="0.1725" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.16404077849860982" />
+        <entry key="app/src/main/res/layout/accessory_item.xml" value="0.15904232578024796" />
+        <entry key="app/src/main/res/layout/accessory_item_xml.xml" value="0.15904232578024796" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/activity_signup.xml" value="0.19375" />
@@ -13,7 +15,7 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.19375" />
-        <entry key="app/src/main/res/layout/fragment_shop.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/fragment_shop.xml" value="0.2" />
         <entry key="app/src/main/res/menu/button_nav_bar.xml" value="0.19375" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1725" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1725" />
