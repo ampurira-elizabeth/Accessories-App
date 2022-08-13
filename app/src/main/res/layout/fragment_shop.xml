@@ -82,23 +82,13 @@
         android:id="@+id/tvNeckB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="16dp"
         android:text="Neck Bracelete"
-        app:layout_constraintEnd_toStartOf="@+id/tvFingerB"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvAnkleB"
         app:layout_constraintTop_toBottomOf="@+id/tvWords" />
-
-    <TextView
-        android:id="@+id/tvFingerB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:text="Finger Bracelete"
-        app:layout_constraintBottom_toBottomOf="@+id/tvNeckB"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/tvNeckB"
-        app:layout_constraintTop_toTopOf="@+id/tvNeckB" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvAccessory"

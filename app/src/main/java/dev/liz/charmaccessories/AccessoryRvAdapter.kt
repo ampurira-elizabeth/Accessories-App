@@ -13,13 +13,11 @@ class AccessoryRvAdapter(var accessoryList:List<Accessory>):RecyclerView.Adapter
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AccessoryViewHolder {
         var binding=AccessoryItemBinding.inflate(LayoutInflater.from(parent.context),parent,false)
         return AccessoryViewHolder(binding)
-
     }
     override fun onBindViewHolder(holder: AccessoryViewHolder, position: Int) {
        var currentAccessory=accessoryList.get(position)
         holder.binding.tvName.text=currentAccessory.name
-//        holder.binding.igAccessory=currentAccessory.image
-    Picasso.get().load(currentAccessory.image)
+         Picasso.get().load(currentAccessory.image)
             .placeholder(R.drawable.ic_baseline_person_24)
             .networkPolicy(NetworkPolicy.OFFLINE)
             .resize(300,300).centerCrop()
@@ -44,6 +42,5 @@ class AccessoryRvAdapter(var accessoryList:List<Accessory>):RecyclerView.Adapter
         return accessoryList.size
     }
 }
-
 class AccessoryViewHolder(var binding:AccessoryItemBinding):RecyclerView.ViewHolder(binding.root)
 
